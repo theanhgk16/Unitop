@@ -1,0 +1,13 @@
+Thực hành đổi màu text băng Jquery
+
+Chuẩn bị: 
+    -Một đoạn text
+    -Hai button : đỏ, xanh
+
+Công việc
+    -Khi click vào button đỏ => Text chuyển sang màu đỏ
+    -Khi click vào button xanh => Text chuyển sang màu xanh
+
+
+Document:
+.css : phương thức tác động css

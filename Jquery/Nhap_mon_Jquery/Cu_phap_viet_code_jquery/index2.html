@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhiều seloctor</title>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <p class="first-name">Họ...</p> 
+    <!-- I`m Nguyễn Thế Anh -->
+    <p class="last-name">Tên...</p>
+
+
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            // Thay đổi đối tượng cho đối tượng nào? =>  p (selector)
+            // Thay đổi cái gi? => Text(method text jquery)
+            // 1. Xuất ra họ
+            // Selector: p.first-name
+            $('p.first-name').text('Nguyễn Thế');
+            // 2. Xuất tên
+            // Selector: p.last-name
+            // Text('Anh')
+            $('p.last-name').text('Anh')
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+Cú pháp viết code Jquery:
+    Cú pháp: $(selector).action():
+        - $ phần viết tắt(chữ kí) của jquery
+        - Selector(bộ chọn) là tập hợp các phần tử html cần xử lí
+        - Action : Hành động xử lí lên đối tượng liệt kê ở Selector ví dụ : Sự Kiện, Hiệu ứng...
+        - Kết thúc câu lệnh bởi " ; "
+
+Event document ready
+    Đây là sự kiện sau khi nội dung website được load thành công
+    $ (document) .ready(function(){
+        // code xử lí jquery
+    });
+
+    Viết rút gọn 
+    $ (function(){
+        // code xử lí jquery
+    });
+
+CHÚ Ý : CÁC THAO TÁC Jquery ĐƯỢC XỬ LÍ BÊN TRONG SỰ KIỆN "DOCUMENT READY"

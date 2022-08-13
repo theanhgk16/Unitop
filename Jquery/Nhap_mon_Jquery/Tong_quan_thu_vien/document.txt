@@ -1,0 +1,16 @@
+2.1.Tổng quan Jquery:
+        - Là một thư viện của js được xây dưng để đơn giản hóa các chức năng xử lý ở client.
+        - Thao tác với Dom
+        - Sự kiện
+        - Hiệu ứng
+        - Ajax
+        - Nhẹ, dễ sử dụng
+2.1.Áp dụng Jquery vào đâu?
+     - Back Top: Giúp người dùng lên đầu trang
+     - Fixed Menu: giữ vị trí của menu scroll
+     - Menu responsive: Xử lí ẩn hiện video
+     - Tab: Hiển thị nhiều nội dung trên một không gian
+     - Upadate cart: Cập nhật giỏ hàng dễ dàng qua Ajax
+     - Slider: Xứ lí slider hiển thị hình ảnh sản phẩm
+     - Check all: Xử lí chọn tất cả các đối tượng để xư rlis qua checkbox( thường sử dụng trong ADMIN)
+
