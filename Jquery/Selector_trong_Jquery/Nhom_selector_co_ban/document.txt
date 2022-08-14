@@ -1,0 +1,6 @@
+Nhóm selector cơ bản:
+    $(element) : Chọn tag html
+    $(.'className') : Chọn tất cả class có className
+    $('#idName') : Chọn phần tử có id idName
+    $('*') : Chọn tất cả các phần tử html
+    $(F,G,H) : Hợp kết quả các bộ chọn thành phần F, G, H

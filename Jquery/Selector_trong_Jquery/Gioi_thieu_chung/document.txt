@@ -1,0 +1,13 @@
+Giới thiệu chương "Selector trong jquery":
+    - Selector( bộ chọn) là tập hợp các phần tử HTML cần tác động vào nó theo yêu cầu xử lí chương trình.
+
+$(Selector).action();
+
+Các nhóm Selector:
+    - Nhóm selector cơ bản
+    - Nhóm selctor theo thuộc tính
+    - Nhóm selector định vị
+    - Nhóm selector lọc theo phần tử con
+    - Nhóm selctor lọc theo nội dung
+    - Nhóm selector về form
+    - Nhóm selctor về cấu trúc cấp bậc

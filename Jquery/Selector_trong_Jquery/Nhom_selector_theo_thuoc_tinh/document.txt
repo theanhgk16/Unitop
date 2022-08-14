@@ -1,0 +1,28 @@
+Nhóm Selector theo thuộc tính:
+    src : Thuộc tính đường dẫn ảnh
+    alt : Nội dung text hiển thị khi hình ảnh không load thành công
+    title : Thuộc tính hiển thị tiêu đề ảnh, liên kế
+    href : Thuộc tính lưu trữ đường liên kế
+    id, class ; Thuộc tính luuw tên id, class
+
+Cách viết:
+    $("[attribute|='value']") : Chọn tất cả phần tử với thuộc tính attribute 
+                                có giá trị value hoặc theo sau value là 1 dấu gạch ngang.
+
+    $("[attribute*='value']") : Chọn tất cả phần tử với thuộc tính attribute có giá trị chứa value.
+
+    $("[attribute~='value']") : Chọn tất cả phần tử với thuộc tính attribute có giá trị chưa value
+                                và cách phần giá trị cạnh nó bởi khoảng trắng.
+
+    $("[attribute$='value']") : Chọn tất cả phần tử với thuộc tính attribute có giá trị kết thúc bởi value.
+
+    $("[attribute^='value']") : Chọn tất cả phần tử vưới thuộc tính attribute có giá trị bắt đầu bởi value.
+
+    $("[attribute='value']") : Chọn tất cả các phần tử với thuộc tính attribute có giá trị chính xác bằng value.
+
+    $("[attribute!='value']") : Chọn tất cả các phần tử với thuộc tính attribute có giá trị không phải là value.
+
+    $("[attribute]") : Chọn tất cả các phần tử với thuộc tính attribute với bất kì giá trị nào.
+
+    $("[attributeFilter1='value'][attributeFilter2='value'][attributeFilterN='value']") : Chọn tất cả các phần tử bao gồm tất cả các thuộc tính
+                                                                                        attributeFilter1, attributeFilter2, ...attributeFilterN.   
