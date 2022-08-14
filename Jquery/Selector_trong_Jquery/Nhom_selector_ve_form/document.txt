@@ -1,0 +1,13 @@
+Nhóm Selector về Form:
+    $(":button") : Chọn tất cả phần tử có type button
+    $(":checkbox") : Chọn tất cả phần tử có type checkbox 
+    $(":password") : Chọn tất cả phần tử có type password
+    $(":input") : Chọn tất cả acsc input, textarea, selector, button 
+    $(":file") : Chọn tất cả phần tử có type file
+    $(":radio") : Chọn tất cả phần tử có type radio
+    $(":selected") : Chọn tất cả phần tử là option được selected
+    $(":text") : Chọn tất cả phần tử có type text
+    $(":enabled") : Chọn tất cả phần tử enabled
+    $(":disabled") : Chọn tất cả phần tử disabled
+
+.length: Tính số lượng

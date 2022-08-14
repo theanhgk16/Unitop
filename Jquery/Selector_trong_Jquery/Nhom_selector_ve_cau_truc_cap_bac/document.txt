@@ -1,0 +1,4 @@
+Nhóm selector về cấu trúc cấp bậc:
+    $("parent>child") : Chọn tất cả các phần tử child là con trực tiếp của parent
+    $("ancestor descendant") : Chọn tất cả các phần tử descendant là con cháu được xác định bởi ancestor
+    $("prev + next") : Chọn phần tử next cùng cấp đứng sau prev

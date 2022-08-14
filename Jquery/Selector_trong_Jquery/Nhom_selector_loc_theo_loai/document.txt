@@ -1,0 +1,4 @@
+Nhóm Selector lọc theo loại:
+    $(":first-of-type") : Chọn phần tử đầu tiên trong acsc phần tử cùng cấp và cùng loại.
+    $(":last-of-type) : Chọn phần tử cuối cùng trong các phafant ử cùng cấp và cùng loại.
+    $(":only-of-type") : Chọn tất cả phần tử chỉ có một phần tử duy nhất, không có các phần tử cùng loại và cùng cấp.

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhóm selector về cấu trúc cấp bậc</title>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <style>
+        form input{
+            display: block;
+            margin: 10px 0px;
+        }
+    </style>
+
+    <ul id="main-menu">
+        <li><a href="">Menu 1</a></li>
+        <li>
+            <a href="">Menu 2</a>
+            <ul class="sub-menu">
+                <li><a href="">Menu 2.1</a></li>
+                <li><a href="">Menu 2.2</a></li>
+                <li><a href="">Menu 2.3</a></li>
+            </ul>
+        </li>
+        <li><a href="">Menu 3</a></li>
+        <li><a href="">Menu 4</a></li>
+        <li><a href="">Menu 5</a></li>
+    </ul>
+    
+    <form action="">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+    </form>
+
+
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            //1. Toàn bộ menu cấp 1 => màu đỏ
+            //$("#main-menu>li>a").css('color', 'red');
+
+            //2. Toàn bộ menu  => màu gold
+            //$("#main-menu a").css('color', 'gold');
+
+            //3. In vào giá trị của input "Đã có label" nếu có label phía trên
+            //$("form label + input").val('Đã có label');
+
+            //4. Toàn bộ phía sau labelcos value "Đứng sau label"
+            $("form label ~ input").val('Đứng sau label');
+
+        });
+    </script>
+</body>
+</html>
