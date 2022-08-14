@@ -1,0 +1,5 @@
+Nhóm Selector lọc theo nội dung:
+    $(":contains(text"): Chọn tất cả phần tử có chứa nội dung text xác định.
+    $(":emty") : Chọn tất cả các phần tử có nội dung rỗng bao gồm không có text hoặc các thẻ như input, <img>, <br>, <hr>.
+    $(":has(Selector)") : Chọn tất cả các phần tử có ít nhất một phaafnt ử con có Selector xác định.
+    $(":parent") : Chọn những phần tử có ít nhất một phần tử con có thể text, haowjc phần tử html.

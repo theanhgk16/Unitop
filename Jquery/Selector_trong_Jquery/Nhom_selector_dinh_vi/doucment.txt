@@ -1,0 +1,9 @@
+Nhóm selector định vị
+    $(':eq(index)') : Chọn phần tử tại vị có chỉ số index trong tập hợp các phần tử của bộ chọn.
+    $(":first") : Chọn phần tử tại vị trí đầu tiên trong tập hợp các phần tử bộ chọn.
+    $(":last") : Chọn phần tử tại vị trí cuối cùng trong tập hợp các phần tử của bộ chọn.
+    $(":gt(index)") : Chọn tất cả các phần tử trong bộ chọn có chỉ số lớn hơn index.
+    $(":lt(index)") : Chọn tất cả các phần tử trong bộ chọn có chỉ số nhỏ hơn index. 
+    $(":odd") : Chọn tất cả phần tử trong bộ chọn nằm ở vị trí có chỉ số lẻ.
+    $(":even") : Chọn tất cả các phần tử trong bộ chọn nằm ở vị trí có chỉ số chẵn.
+    $(":not(selctor)") : Chọn những phần tử trong bộ chọn không thuộc vào selctor được chỉ định.

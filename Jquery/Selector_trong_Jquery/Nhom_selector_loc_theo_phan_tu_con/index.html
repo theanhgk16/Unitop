@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhóm Selector lọc theo phần tử con</title>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <ul class="list-post">
+        <li>Bài viết 1</li>
+        <li>Bài viết 2</li>
+        <li>Bài viết 3</li>
+        <li>Bài viết 4</li>
+        <li>Bài viết 5</li>
+        <li>Bài viết 6</li>
+
+        <li>Bài viết 7</li>
+        <li>Bài viết 8</li>
+        <li>Bài viết 9</li>
+    </ul>
+    <ul class="list-post">
+        <li>Bài viết 1</li>
+    </ul>
+
+
+
+    <script>
+        $(document).ready(function(){
+            //1. Chọn bài vết đầu tiên có màu đỏ
+            //$("ul.list-post li:first-child").css('color', 'red')
+            //2. Chọn bài vết cuối cùng có màu đỏ
+            //$("ul.list-post li:last-child").css('color', 'red')
+            //3.nth-child(index, old, even, operation)
+            //$("ul.list-post li:nth-child(even)").css('color', 'red') // chẵn
+            //$("ul.list-post li:nth-child(odd)").css('color', 'red') //lẻ
+            //$("ul.list-post li:nth-child(3n)").css('color', 'red')
+            //4.Chọn những phần tử là con duy nhất của phần tử cha được chỉ định.
+            $("ul.list-post li:only-child").css('color', 'red')
+        });
+    </script>
+</body>
+</html>

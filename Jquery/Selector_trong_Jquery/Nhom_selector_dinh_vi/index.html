@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhóm selector định vị</title>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <p>Đoạn văn 0</p>
+    <p>Đoạn văn 1</p>
+    <p class="p2">Đoạn văn 2</p>
+    <p>Đoạn văn 3</p>
+    <p>Đoạn văn 4</p>
+    <p>Đoạn văn 5</p>
+    <p>Đoạn văn 6</p>
+
+    <div class="box">
+        <p>Đoạn văn 7</p>
+        <p>Đoạn văn 8</p>
+        <p>Đoạn văn 9</p>
+    </div>
+
+    <a href="">Link 1</a>
+    <a href="">Link 2</a>
+
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            //1. Chọn phần tử có chỉ số 1 => đỏ
+            //$("p:eq(1)").css('color', 'red')
+            //2.Chọn phần tử p đầu tiên => đỏ
+            //$("p:first").css('color', 'red')
+            //3.Chọn phần tử p cuối cùng => đỏ
+            //$("p:last").css('color', 'red')
+            //4. Chọn phần tử p có chỉ số lớn hơn 1 => đỏ
+            //$("p:gt(1)").css('color', 'red')
+            //5. Chọn phần tử p có chỉ số bé hơn 3 => đỏ
+            //$("p:lt(3)").css('color', 'red')
+            //6. Chọn phần tử chỉ số lẻ => đỏ
+            //$("p:odd").css('color', 'red')
+            //7. Chọn phần tử chỉ số chẵn => đỏ
+            //$("p:even").css('color', 'red')
+            //8. Chọn tất cả phần tử p ngoại trừ chỉ số 2 => đỏ
+            //$("p:not('p:eq(2)')").css('color', 'red')
+            $("p:not('p.p2')").css('color', 'red')
+        });
+    </script>
+
+</body>
+</html>

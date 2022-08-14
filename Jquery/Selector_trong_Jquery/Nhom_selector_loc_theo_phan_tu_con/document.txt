@@ -1,0 +1,6 @@
+Nhóm phần tử selevtor lọc theo phần tử conm
+    $(":first-child") : Chọn tất cả các phần tử là con đầu tiên của selector cha đượ chỉ định.
+    $(":last-child") : Chọn tất cả các phần tử con cuối cùng của selector cha được chỉ định. 
+    $(":nth-child(index/even/odd/equation)") : Chọn tất cả các phần tử con của phần tử cha tuân theo:
+                                                :nth-child lọc theo chỉ số, chẵn, lẻ, hoặc một phương trình một ẩn.
+    $(":only-child") : Chọn những phần tử là con duy nhất của phần tử cha được chỉ định.
