@@ -1,0 +1,4 @@
+Nhóm phương thức tác động css:
+    .css(propertyName) : Lấy giá trị thuộc tính css propertyName của phần tử đầu tiên trong bộ chọn.
+    .css(propertyName, value) : Thiết lập một hoặc nhiều thuộc tính ptopertyNmae có giá trị value cho tất cả các phần tử trong bộ chọn.
+    

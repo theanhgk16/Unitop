@@ -1,0 +1,11 @@
+Nhóm phương thức khoảng cách, tọa độ:
+    .position() : Lấy vị trí đối tượng của selector absolute so với phần tử cha relative bao gòm top, left
+                - position().top
+                - position().left
+    .offset() : Lấy vị trí tương đối của selector so với document bao gồm top, left
+                - offset().top
+                - offset().left
+    .scrollTop() : Lấy khoảng cách vị trí của thanh cuộn với phần tử đầu tiên trong bộ chọn theo phương thẳng đứng.
+    .scrollTop(value) : Thiết lập khoảng cách value của thanh cuộn với phần tử đầu tiên trong bộ chọn theo phương thẳng đứng.
+    .scrollLeft() : Lấy khoảng cách vị trí của thanh cuộn với phần tử đầu tiên trong bộ chọn theo phương ngang.
+    .scrollLeft(value) : Thiết lập khoảng cách value của thanh cuộn với phần tử đầu tiên trong bộ chọn theo phương ngang.

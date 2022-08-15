@@ -1,0 +1,9 @@
+Nhóm phương thức kích thước:
+    .height() : Lấy giá trị độ cao của phần tử đầu tiên trong bộ chọn.
+    .height(value) : Thiết lập độ cao cho tất cả các phần tử trong bộ chọn.
+    .innerHeight() : Lấy giá trị độ cao của phần tử đầu tiên trong bộ chọn bao gồm padding.
+    .outerHeight() : Lấy giá trị độ cao của phần tử đầu tiên trong bộ chọn bao gồm padding, border.
+    .width() : Thiết lập độ rộng cho tất cả các phần tử trong bộ chọn.
+    .width(value) : Lấy độ rộng của phần tử đầu tiên trong bộ chọn.
+    .innerWidth() : Lấy độ rộng của pần tử đầu tiên trong bộ chọn bao gồm padding.
+    .outerWidth() : Lấy độ rộng của phần tử đầu tiên trong bộ chọn bao gồm cả padding, border.

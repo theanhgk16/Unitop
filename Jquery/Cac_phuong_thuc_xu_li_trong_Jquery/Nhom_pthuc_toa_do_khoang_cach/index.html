@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhóm phương thức tọa độ, khoảng cách</title>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <style type="text/css">
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            font-size: 14px;
+            font-family: arial;
+            line-height: 25px;
+        }
+        #wrapper{
+            width: 960px;
+            margin: 0px auto;
+        }
+        #header, #footer{
+            background: #333;
+            padding: 20px 0px;
+            color: #fff;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        #content{
+            position: relative;
+            padding: 20px 0px;
+        }
+        #content p{
+            margin-bottom: 25px;
+        }
+        .widget{
+            width: 100px;
+            height: 50px;
+            background: red;
+            position: absolute;
+            top: 200px;
+            left: 300px;
+        }
+    </style>
+
+    <div id="wrapper">
+        <div id="header">
+            Header
+        </div>
+        <!-- End header -->
+        <div id="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, dolorum incidunt? Sunt non, optio sit quos est et inventore, illo voluptates molestiae provident commodi? Recusandae, nostrum. Omnis cupiditate totam ipsa perferendis nobis iste fugit magni sequi, facere laudantium? Dolores maxime facilis doloremque vitae autem, incidunt neque ut. Laborum, laudantium quaerat reprehenderit deserunt corporis dignissimos repellendus illum cum hic accusamus, quisquam quas eligendi ex nesciunt beatae error, blanditiis quidem minima voluptatibus aliquam ad quibusdam? Vero eaque odit, voluptates voluptatibus minima voluptas, rerum nemo totam eligendi aut iusto labore impedit nam sequi facere pariatur nihil. Qui sequi vero error ipsam voluptatibus quaerat, aut iure sunt recusandae ab dolores itaque repellat enim in similique dignissimos quis at, consequatur laboriosam quasi illum? Laborum illo non in nihil enim. Consectetur dicta labore minima rerum laborum culpa quaerat dignissimos velit voluptates esse ut consequatur molestiae eius commodi natus amet, sapiente, libero et sequi facilis sunt quae.</p>
+            <div class="widget">
+                Widget
+            </div>
+            <p>Similique magni inventore id aut, a vitae odit ipsa nobis quibusdam! Repellendus placeat numquam repellat, ut assumenda omnis blanditiis asperiores dolores nesciunt sunt quaerat corporis officiis modi eos quidem, exercitationem nemo natus, ex animi aspernatur non odit aperiam voluptatem reprehenderit? Animi veritatis officiis, sed velit iste earum nobis? Iste hic ratione, voluptate suscipit delectus tenetur eius voluptatibus harum beatae unde in saepe fuga quos inventore eveniet deserunt cum ipsa quod corrupti sapiente amet perferendis exercitationem. Sint ducimus, animi quaerat velit, consectetur nemo obcaecati cupiditate repudiandae beatae, facere tempora porro incidunt laboriosam? Officiis, neque voluptatem ut dolor sapiente amet at sunt quod optio nemo nulla esse. Aliquid ab facilis sint et ad odit aut iure itaque animi totam tempore dolor, molestias recusandae incidunt aperiam, mollitia veritatis quo consectetur ullam vel! Deserunt mollitia sequi dolor id tenetur culpa corrupti debitis ipsam perferendis sapiente voluptas qui amet, nesciunt consequatur animi vero, alias magni.</p>
+            <p>Sequi deserunt consequatur ea dicta, ad fugit voluptatum tempora nisi sunt aut, earum quis error repellat placeat molestiae sit eveniet dolorem quos explicabo dolor eaque, aspernatur doloribus alias? Pariatur quasi sequi unde velit fuga, quo ullam dolores sed adipisci corporis optio, temporibus molestias possimus corrupti ipsam similique voluptatibus deserunt non! Molestias corrupti nesciunt cumque architecto ad, dolorum a laudantium eligendi, aliquid doloremque fugit labore? Facere ea maxime sapiente deleniti numquam repellendus eaque, eos cum vel quis officia repellat fugiat mollitia rem delectus exercitationem incidunt, magni commodi, ipsum corrupti laborum qui sed culpa! Sed facilis explicabo ab, doloremque, ad nesciunt sit officia modi dolores illum libero ullam reiciendis est vitae iusto delectus iste repudiandae veritatis quas corrupti architecto nemo! Rem ea quo, nulla odio sint minus quibusdam voluptates aspernatur molestias natus id, numquam sed sunt repellendus voluptatibus? Ea enim voluptatem in illo magni, nam blanditiis reprehenderit hic quia exercitationem rerum numquam?</p>
+            <p>Praesentium possimus culpa commodi ut sequi. Aut modi, minima tempora voluptate architecto illo ducimus. Hic dolore iusto culpa adipisci aliquam maiores dignissimos aut, neque minus beatae doloremque fuga? Qui quos molestiae quo distinctio aliquam accusamus maxime nobis eius totam nulla, repellendus iusto laudantium cumque reprehenderit nisi, nam rerum repellat eum? Sapiente dolor iste quod vel odit reprehenderit, nemo sed laudantium. Fuga delectus cumque facilis neque ex possimus quos corporis repellendus quae provident. Fugit veniam sint soluta hic ad, iste eius doloremque et error quam voluptates magni officia natus animi modi porro reiciendis ullam optio a recusandae facere? Fugit mollitia a animi iure culpa harum dolor quo alias illo soluta quidem repellendus, distinctio repellat possimus atque architecto in consequatur beatae ipsum hic dolore nobis! Quod, explicabo cum consectetur culpa, id rerum dolores voluptatem a doloremque veniam magnam vero quibusdam, natus quisquam facere cumque accusamus fuga. Dolorum alias dicta ipsam minima sunt!</p>
+            <p>Id voluptate sint asperiores possimus accusantium corrupti at error molestiae veniam animi itaque ipsam natus, tempore dignissimos labore amet, laboriosam fugiat dolorem suscipit ipsa cumque quibusdam? Repellat, veritatis! A tenetur vel vitae fugit. Officia ducimus autem eveniet voluptatem, illum aut cupiditate id in doloribus minima soluta odit culpa ab maxime accusantium atque suscipit adipisci cum beatae rerum? Ratione quasi soluta quam accusamus rerum adipisci praesentium quibusdam itaque reprehenderit perspiciatis quia laboriosam ad excepturi asperiores, nemo eos animi distinctio assumenda deleniti iste repellendus temporibus alias quod. Impedit libero nemo id similique aspernatur ipsum, provident adipisci saepe nobis nisi sint reiciendis vitae, quaerat esse assumenda veniam illum delectus quos, rem ipsa. Omnis amet nulla, quae alias cupiditate pariatur, fugiat laudantium et dignissimos iste ex? Eligendi voluptate libero natus aperiam voluptatem consequuntur expedita accusantium quis laboriosam id soluta amet, sit eveniet beatae, ducimus reiciendis dolor. Sequi cum sapiente quod vel. Non, odio officia?</p>
+        </div>
+        <!-- End content -->
+        <div id="footer">
+            Footer
+        </div>
+    </div>
+    
+    <script type="text/javascript">
+        $(document).ready(function(){
+            var widget_top_content, widget_left_content;
+            widget_top_content = $('.widget').position().top;
+            widget_left_content = $('.widget').position().left;
+            console.log(widget_top_content +'-'+ widget_left_content)
+
+            //var content_top = $('#content').offset().top;
+            //var footer_top = $('#footer').offset().top;
+            //console.log(content_top +'-'+ footer_top);
+
+            //var window_scroll_top, window_scroll_left;
+            //$(window).scrollTop(200);
+            //$(window).scroll(function(){
+                //window_scroll_top = $(window).scrollTop();
+                //window_scroll_left = $(window).scrollLeft();
+
+                //console.log(window_scroll_top +'-'+ window_scroll_left);
+            //});
+        });
+    </script>
+</body>
+</html>
