@@ -1,0 +1,4 @@
+Nhóm phương thức về thuộc tính:
+    .attr(attributeName) : Lấy giá tri thuộc tính attributeName của phần tử đầu tiên trong bộ chọn.
+    .att(attributeName,value) : Thiết lập giá trị value cho thuộc tính attributeName của phần tử đầu tiên trong bộ chọn.
+    .removeAttr(attributeName) : Xóa bỏ thuộc tính attributeName trong mỗi phần tử bộ chọn.

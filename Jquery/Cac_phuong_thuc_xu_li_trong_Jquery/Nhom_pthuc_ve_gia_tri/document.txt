@@ -1,0 +1,8 @@
+Nhóm phương thức về giá trị:
+    .val(): Lấy giá trị hiện tại của phần tử đầu tiên trong bộ chọn(áp dụng cho form:
+            input, select, checkbox).
+    .val(value) : Thiết lập giá trị cho phần tử đầu tiên trong bộ chọn.
+    .text() : Lấy và kết hợp tất cả các text của các phần tử trong bộ chọn.
+    .text(value) : Thiết lập cho mỗi phần tử trong bộ chọn có nọi dung value.
+    .html() : Lấy nội dung thẻ html của phần tử đầu tiên trong bộ chọn.
+    .html(stringHtml) : Thiết lập nội dung html(stringHtml) cho tất cả các phần tử trong bộ chọn.

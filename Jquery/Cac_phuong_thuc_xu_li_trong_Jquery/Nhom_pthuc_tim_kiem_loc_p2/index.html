@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhóm phương thức tìm kiếm, lọc phần 2</title>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <style type="text/css">
+        /*ul.sub-menu{
+            display: none;  
+        }*/
+    </style>
+
+    <ul id="main-menu">
+        <li><a href="">Menu1</a></li>
+        <li><a href="">Menu2</a>
+            <ul class="sub-menu">
+                <li><a href="">Menu2.1</a></li>
+                <li><a href="">Menu2.2</a></li>
+                <li><a href="">Menu2.3</a></li>
+                <li><a href="">Menu2.4</a></li>
+            </ul>
+        </li>
+        <li><a href="">Menu3</a></li>
+        <li><a href="">Menu4</a>
+            <ul class="sub-menu">
+                <li><a href="">Menu4.1</a></li>
+                <li><a href="">Menu4.2</a></li>
+                <li><a href="">Menu4.3</a></li>
+                <li><a href="">Menu4.4</a></li>
+            </ul>
+        </li>
+        <li><a href="">Menu5</a></li>
+        <li><a href="">Menu6</a></li>
+    </ul>
+
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#main-menu li").click(function(){
+                //$(this).children('.sub-menu').show();
+               // $(this).children('.sub-menu').find('a').css('color','red');
+            });
+            $("#main-menu a").click(function(){
+               $(this).parents('ul').css('border', '1px dotted #f00');
+               return false;
+            });
+        });
+    </script>
+</body>
+</html>

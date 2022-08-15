@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhóm phương thức tìm kiếm, lọc phần 1</title>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <p>Đoạn văn bản 1</p>
+    <p class="highlight">Đoạn văn bản 2</p>
+    <p>Đoạn văn bản 3</p>
+    <p>Đoạn văn bản 4</p>
+    <p class="highlight">Đoạn văn bản 5</p>
+    <p>Đoạn văn bản 6</p>
+
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            //eq
+            //$('p').eq(3).css('color', 'red')
+            //not
+            //$('p').not('.highlight').css('color', 'green')
+            //filter
+            //$('p').filter('.highlight').css('color', 'red')
+            //Cho đoạn văn sau highlight có màu gold
+            //Next
+            //$('p').filter('.highlight').next().css('color', 'gold')
+            //NextAll
+            //$('p').eq(0).nextAll('.highlight').css('color', 'gold')
+            //is(selector)
+            $('p').click(function(){
+                if($(this).is('.highlight')){
+                    alert('day')
+                }
+            });
+        });
+    </script>
+</body>
+</html>

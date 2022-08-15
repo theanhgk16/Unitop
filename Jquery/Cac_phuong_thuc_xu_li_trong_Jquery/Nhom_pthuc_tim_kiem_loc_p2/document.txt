@@ -1,0 +1,6 @@
+Nhóm phương thức tìm kiếm, lọc:
+    .find(selector) : Tìm tất cả các phần tử là con cháu của các phần tử trong bộ chọn được xác định bởi selector.
+    .children([selector]) : Tìm đến tất cả các phần tử con của bộ chọn trong HTMl, có thể được lọc bởi selector.
+    .parent([selector]) : Tìm đến tất cả các phần tử là cha trực tiếp của các phần tử trong bộ chọn có thể lọc.
+    .parents([selector]) : Tìm đến tất cả các phần tử là tổ tiên của các phần tử trong bộ chọn, có thể lọc thông qua selector.
+    

@@ -1,0 +1,5 @@
+Nhóm phương thức về Class:
+    .addClass(className) : Thêm một hoặc nhiều class vào mỗi phần tử  trong bộ chọn.
+    .removeClass(className) : Xóa một, nhiều, hoặc tất cả các class của các phần tử trong bộ chọn.
+    .toggleClass(className) : Thêm hoặc bỏ một, nhiều class của các phần tử trong bộ chọn.
+    .hasClass(className) : Kiểm tra sự có mặt của class trong đối tượng chọn.(như công tắc bật/tắt)

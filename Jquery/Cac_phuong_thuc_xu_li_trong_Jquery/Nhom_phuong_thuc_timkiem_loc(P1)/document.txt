@@ -1,0 +1,15 @@
+Nhóm phương thức tìm kiếm, lọc:
+    .eq(index) : Định vị phần tử trong tập bộ chọn với chỉ số xác định.
+    .not(selector) : Loại bỏ tập hợp các phần tử được định nghĩa bởi selector trong
+                        tập hợp các phần tử trong bộ chọn.
+    .filter(selector) : Giới hạn tập phần tử trong bộ chọn bởi bộ lọc các phần tử trong selector.
+    .next(selector) : Định vị đến phần tử tiếp theo cùng cấp của mỗi phần tử trong bộ chọn, hoặc được xác định bởi selector.
+    .nextAll(selector) : Định vị đến tất cả các phần tử trong cùng cấp của các phần tử trong bộ con, hoặc được xác định bởi selector.
+    .pre(selector) : Định vị đến phần tử phía trước cùng cấp của mỗi phần tử trong bộ chọn, haowjc được xác định bởi selector.
+    .preAll(selector) : Ddịnh vị đến tất cả các phần tử phía trước trong cùng cấp của các phần tử trong bộ chọn, hoặc được xác định bởi selector.
+    .is(selector) : Kiểm tra số lượng phần tử được lọc bởi selector trong tập hợp các phần tử trong bộ chọn.
+                    Phương thức trả về true nếu ít nhất một phần tử phù hợp, ngược lại trả về false.
+    .find(selector) : Tìm tất cả các phần tử là con cháu của các phần tử trong bộ chọn được xác định bởi selector.
+    .children([selector]) : Tìm tất cả các phần tử con của bộ chọn trong HTML, có thể được lọc bởi selector.
+    .parent([selector]) : Tìm đến tất cả các phần tử là cha trực tiếp của các phần tử trong bộ chọn có thể lọc thông qua selector.
+    .parents([selector]) : Tìm đến tất cả các phần tử là tổ tiên của các phần tử trong bộ chọn, có thể lọc thông qua selector. 

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhóm phương thức về thuộc tính</title>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <img data-href="adc.html" src="images/jquery.jpg" alt="" title="">
+    <a class="get_link_img" href="#">Lấy thông tin</a>
+    <a class="remove_attr" href="#">Hủy giá trị thuộc tính</a>
+
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            // Click vào a hiển thị lên link của hình ảnh thông qua alert();
+
+            /*
+            $('a.get_link_img').click(function(){
+                //var data_href;
+                //data_href = $("img").attr('data-href');
+                //alert(data_href);
+
+                //var width_img;
+                //width_img = $("img").attr('width', '500');
+                //alert(width_img);
+
+                return false;
+            });
+            */
+
+            $('a.remove_attr').click(function(){
+                $("img").removeAttr('src');
+                $("img").removeAttr('data-href');
+                return false;
+            });
+
+        });
+    </script>
+</body>
+</html>
