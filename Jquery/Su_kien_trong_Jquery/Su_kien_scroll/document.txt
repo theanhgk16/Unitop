@@ -1,0 +1,7 @@
+Sự kiện Scroll trong Jquery:
+    Sự kiện giúp chúng ta thực thi các cức năng khi thwujc hiện thao tác Scroll thanh cuộn của một phần tử html.
+
+Chú ý: Thanh cuộn xuất hiện khi nội dung bên trong nhiều hơn kích thước chứa phần tử
+$('#wrapper').scroll(function(){
+    alert('ok);
+});

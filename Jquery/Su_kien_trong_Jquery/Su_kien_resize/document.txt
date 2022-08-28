@@ -1,0 +1,9 @@
+Sự kiện resize trong jquery:
+    Sự kiện giúp chúng ta thực thi các chức năng khi thực hiện thao tác thay đổi kích thước
+    (độ rộng) của một phần tử.
+
+Chú ý: Sự kiện thường áp dụng cho resize trình duyệt
+$(window).resize(function(){
+    var size_window = $(window).width();
+    $('#size #result').text(size_window + 'px');
+});'')
