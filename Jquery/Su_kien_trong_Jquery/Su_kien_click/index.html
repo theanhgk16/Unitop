@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sự kiện onclick</title>
+    <script src="js/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <style type="text/css">
+        #target, #other{
+            display: inline-block;
+            padding: 5px;
+            margin: 5px;
+            background: #333;
+            color: #fff;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        #target:hover, #other:hover{
+            text-decoration: underline;
+        }
+    </style>
+
+
+    <h1>Sự kiện click trong Jquery</h1>
+    <a href="#" id="target">#target</a>
+    <a href="#" id="other">#other</a>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("a#target").click(function(){
+                alert("Bạn vừa cick vào target");
+            });
+
+            $("a#other").click(function(){
+                alert("Bạn vừa cick vào orther");
+                $("a#target").click();
+              });
+        });
+    </script>
+</body>
+</html>

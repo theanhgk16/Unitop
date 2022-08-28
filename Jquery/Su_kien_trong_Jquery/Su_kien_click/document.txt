@@ -1,0 +1,3 @@
+Sự kiện Click trong Jquery:
+    Đây là sự kiện giúp chúng ta thực thi các chức năng khi Click chuột vào một
+    thành phần nào đó hoặc kích hoạt clixk trên một phần tử.

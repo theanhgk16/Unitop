@@ -1,0 +1,3 @@
+Sự kiện submit form:
+    Đây là sự kiện giúp chúng ta thực thi các chức năng khi submit form hoặc
+    kích hoạt submit trên một form được chỉ định.

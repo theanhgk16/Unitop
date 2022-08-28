@@ -1,0 +1,5 @@
+Sự kiện Hover trong Jquery:
+    Sự kiện giúp thực hiện mộ thaowjc hai xử lí khi chúng ta ghé thăm hoặc rời khỏi
+    một phần tử html được xác định.
+    .hover(handlerIn, handlerOut)
+    .hover(handlerInOut)

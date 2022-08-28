@@ -1,0 +1,14 @@
+Sự kiện Change trong Jquery:
+    Sự kiện giúp chúng ta thực thi chưc năng khi thay đổi giá trị trong phần tử form.
+    Ngoài ra sử dụng nó để kich hoạt sự kện change() lên một phần tử xác định.
+
+    Chú ý: Sự kiện áp dung cho textarea, input text, select.
+    $('#form_select).change(function(){
+        alert($(this).val());
+    })
+    $('#form_textarea).change(function(){
+        alert($(this).val());
+    })
+    $('#form_input_text).change(function(){
+        alert($(this).val());
+    })
