@@ -1,0 +1,2 @@
+Hoạt cảnh trong Jquery:
+    .animate() : Hoạt cảnh lên CSS

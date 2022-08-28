@@ -1,0 +1,2 @@
+Ngăn chặn hàng đợi hiệu ứng:
+    .stop() : Tạm dừng xử lí hiệu ứng liên tiếp

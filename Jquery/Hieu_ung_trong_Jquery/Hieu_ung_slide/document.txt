@@ -1,0 +1,5 @@
+Nhóm hiệu ứng slide:
+    .slideUp() : Ẩn phần tử theo hướng cuộn lên.
+    .slideDown() : Hiển thị phần tử theo hướng cuộn xuống.
+    .slideToggle() : Cuộn lên, hoặc xuống theo trạng thái.
+    

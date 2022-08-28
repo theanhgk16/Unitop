@@ -1,0 +1,4 @@
+Nhóm hiệu ứng fade:
+    .fadeIn() : Hiện dần phần tử
+    .fadeOut() : Ẩn dần phần tử
+    .fadeToggle() : Hiện dần và ẩn dần phần tử tùy trạng thái

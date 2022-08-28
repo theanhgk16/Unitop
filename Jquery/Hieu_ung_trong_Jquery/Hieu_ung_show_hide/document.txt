@@ -1,0 +1,4 @@
+Nhóm hiệu ứng show, hide:
+    .show() : Hiển thị phần tử
+    .hide() : Ẩn phần tử
+    .toggle() : Ẩn hoặc hiển thị phần tử theo trạng thái
